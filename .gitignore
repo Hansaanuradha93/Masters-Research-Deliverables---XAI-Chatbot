@@ -1,0 +1,118 @@
+#########################
+#   GLOBAL IGNORE        #
+#########################
+
+# macOS system junk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+.history/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+#########################
+#   PYTHON (Flask)       #
+#########################
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache & build junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+
+# Model + SHAP artefacts (optional but recommended)
+*.pkl
+*.joblib
+*.sav
+*.h5
+artifacts/
+models/
+explainer/
+*.npy
+*.npz
+
+# Jupyter stuff
+.ipynb_checkpoints/
+.jupyter/
+
+#########################
+#   NODE + NEXT.JS       #
+#########################
+
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Next.js cache
+.next/
+.vercel/
+
+# Environment variables
+.env
+.env.*
+
+
+#########################
+#   FRONTEND (React)     #
+#########################
+
+# Production build
+build/
+
+# Local cache
+.cache/
+.parcel-cache/
+
+#########################
+#   SUPABASE             #
+#########################
+
+# Supabase configs
+supabase/.temp/
+supabase/.branches/
+supabase/.studio/
+
+#########################
+#   DOCUMENTATION        #
+#########################
+
+# Temporary or generated files
+*.tmp
+*.bak
+
+# Word temp files
+~$*.docx
+
+# PDFs or large exports (optional)
+*.pdf
+*.pptx
+
+#########################
+#   OS / EDITOR FILES    #
+#########################
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
